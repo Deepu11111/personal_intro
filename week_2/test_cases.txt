@@ -1,0 +1,17 @@
+Student Grade Calculator - Test Cases Document
+
+1. Positive Test Cases (Valid Inputs):
+   - Input: 95 | Expected: Grade A | Message: "Outstanding ! you are a great student"
+   - Input: 85 | Expected: Grade B | Message: "Very Good! Keep it up"
+   - Input: 75 | Expected: Grade C | Message: "Good job ! need some more efforts"
+   - Input: 65 | Expected: Grade D | Message: "You just passed"
+   - Input: 40 | Expected: Grade E | Message: "Do not give up , you can do it !"
+
+2. Boundary Value Test Cases:
+   - Input: 90 | Expected: Grade A (Lower limit of A)
+   - Input: 0  | Expected: Grade E (Lowest possible marks)
+   - Input: 100| Expected: Grade A (Highest possible marks)
+
+3. Negative Test Cases (Validation Check):
+   - Input: 105   | Expected: Error "Invalid ! marks must be b/w 0 and 100."
+   - Input: -5    | Expected: Error "Invalid ! marks must be b/w 0 and 100."
